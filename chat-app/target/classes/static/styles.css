@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+    margin: 0;
+    padding: 0;
+}
+
+#login, #chat {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+#chatbox {
+    height: 400px;
+    overflow-y: auto;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: linear-gradient(to bottom right, #f3f4f6, #e3f2fd);
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 20px;
+    max-width: 80%;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.user-color-1 { background-color: #c8e6c9; align-self: flex-start; color: #2e7d32; }
+.user-color-2 { background-color: #b2ebf2; align-self: flex-start; color: #006064; }
+.user-color-3 { background-color: #ffcdd2; align-self: flex-start; color: #c62828; }
+.user-color-4 { background-color: #fff9c4; align-self: flex-start; color: #f9a825; }
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+    outline-color: #007bff;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 24px;
+    border: none;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #0056b3, #0093c4);
+}
+/* Message alignment based on sender */
+.own-message {
+    align-self: flex-end;
+    background-color: #d0e6ff !important;
+    color: #004085;
+}
+
+.other-message {
+    align-self: flex-start;
+}
