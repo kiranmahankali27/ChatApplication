@@ -84,8 +84,16 @@ ChatApplication/
 ---
 
 ## 📸 Screenshots
-
-> _(Add screenshots here of the name prompt and the colorful chat interface with left/right message alignment)_
+1.User 1(kiran) joined
+<img width="1912" height="1030" alt="image" src="https://github.com/user-attachments/assets/af79fd8e-738a-461c-9bd3-365ccb6d9183" />
+2.user 2(vardhan joined)
+<img width="1918" height="1034" alt="image" src="https://github.com/user-attachments/assets/91a4c190-65e1-43a0-aa21-da80fc883306" />
+3.user 2 screen,sent a message
+<img width="1909" height="1030" alt="image" src="https://github.com/user-attachments/assets/c87f5ae6-f602-4071-9276-07d185c6c480" />
+4.user 1 received the message of user 2.
+<img width="1905" height="1030" alt="image" src="https://github.com/user-attachments/assets/28baa9ac-6310-4371-837a-52f2e1876732" />
+5.chat Imeage
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/95ab9cab-4d27-456f-98a5-7315b100de57" />
 
 ---
 
